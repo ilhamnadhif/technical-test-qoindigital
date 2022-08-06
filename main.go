@@ -148,8 +148,17 @@ func main() {
 	}
 
 	fmt.Println("=======================================")
+
+	max := temp[1].Poin
+	index := 1
 	for i, v := range temp {
 		fmt.Println(i, v)
+		if v.Poin > max {
+			max = v.Poin
+			index = i
+		}
 	}
+
+	fmt.Printf("Game dimenangkan oleh pemain nomor %d", index)
 
 }

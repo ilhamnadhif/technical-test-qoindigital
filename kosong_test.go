@@ -13,7 +13,7 @@ func TestKosong(t *testing.T) {
 		},
 		2: {
 			Poin: 0,
-			Dadu: []int{2, 2, 3},
+			Dadu: []int{},
 		},
 		3: {
 			Poin: 0,
